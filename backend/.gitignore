@@ -1,0 +1,51 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build and dist directories (you may have different build output directories)
+build/
+dist/
+out/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+.idea/
+
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore runtime files
+npm-debug.log*
+
+# Ignore user-specific files
+*.swp
+
+# Ignore custom configuration files (e.g., for ESLint, Prettier)
+.eslintrc.js
+.prettierrc.js
+.stylelintrc.js
+
+# Ignore automatically generated files
+jest.config.js
+
+# Ignore any other files and directories you want to exclude from version control
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
